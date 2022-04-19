@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Instal 
+npm install --save @ckeditor/ckeditor5-react @ckeditor/ckeditor5-build-classic
+npm i html-react-parser
+
 ## Available Scripts
 
 In the project directory, you can run:
