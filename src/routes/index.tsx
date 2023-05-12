@@ -6,10 +6,10 @@ import Home from "../component/Home";
 const RoutesController = () => {
   return (
     <>
+      <Home />
       <Routes>
-        <Route path="/ck" element={<Ckeditor />} />
+        <Route path="/" element={<Ckeditor />} />
         <Route path="/advanced" element={<AdvancedEditor />} />
-        <Route path="/" element={<Home />} />
       </Routes>
     </>
   );
